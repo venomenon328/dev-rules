@@ -1,6 +1,6 @@
-# Strukturentscheidungen für die erste Fassung
+# Strukturentscheidungen
 
-Diese Erläuterungen dokumentieren die beim Aufbau gewählte Richtung. Verbindliche Prozessregeln stehen im [Workflow](../rules/WORKFLOW.md), nicht zusätzlich hier.
+Diese Erläuterungen dokumentieren die gewählte Richtung und ihre ausdrücklich beschlossenen Änderungen. Verbindliche Prozessregeln stehen im [Workflow](../rules/WORKFLOW.md), nicht zusätzlich hier.
 
 ## Zentrale Pflege, lokale Ausführung
 
@@ -24,8 +24,14 @@ Das sind lokale Prozessentscheidungen. Offizielle Modellbeschreibungen belegen w
 
 ## Belegbares Review statt Vertrauen auf Fazittexte
 
-Ein Review nennt den Code-Stand und trennt Behauptungen, vorhandene Prüfbelege und selbst geprüfte Sachverhalte. B-, A- und O-Befunde unterscheiden Fehler, fehlende Abnahme und optionale Verbesserung. Ein echtes Agenten-/Projektpilot bleibt nötig; statische Dokumenttests können ihn nicht simulieren.
+Ein Review nennt den Code-Stand und trennt Behauptungen, vorhandene Prüfbelege und selbst geprüfte Sachverhalte. B-, A- und O-Befunde unterscheiden Fehler, fehlende Abnahme und optionale Verbesserung. Statische Dokumenttests beweisen keine erfolgreiche Agentenbefolgung; tatsächliche Erfahrungen werden bei regulären Aufgaben gesammelt.
 
-## Bewusst nicht im ersten Paket
+## Direkte Einführung statt separater Pilotphase
 
-Kein automatischer Rollout, keine Änderung vorhandener Projekteinstellungen, keine allgemeine Modellkosten-Datenbank und keine neue Pflicht zur formalen Mehrpersonenfreigabe. GitHub-Branchschutz wird in den Zielprojekten geprüft, aber nicht ungefragt konfiguriert. Weitere Anforderungen werden erst aus tatsächlichen Pilotproblemen abgeleitet.
+Die ursprüngliche Fassung verlangte einen Projekt-/Codex-Pilot vor breiterer Einführung. Diese Voraussetzung wurde mit der Eigentümerentscheidung in [Issue #3](https://github.com/venomenon328/dev-rules/issues/3) ausdrücklich aufgehoben. Es geht um eine Arbeitsweise, die im laufenden Betrieb angepasst werden soll, nicht um einen vorab vollständig zu zertifizierenden Prozess. Der Verzicht wird nicht als erfolgreich absolvierter Pilot dargestellt.
+
+Bestehende Projekte werden unabhängig per Einführungs-PR angebunden; neue Projekte erhalten die Struktur bereits beim Aufbau. Quellenzugriff, Schutzregeln, normale Tests und Freigaben bleiben erhalten. Laufende Arbeit wird nicht pauschal neu begonnen. Praktische Verbesserungen fließen über vorhandene Issues/Reviews zurück. Der konkrete Ablauf steht in [ADOPTION.md](ADOPTION.md).
+
+## Weiterhin nicht Teil der zentralen Einrichtung
+
+Kein automatischer Rollout, keine automatische Änderung vorhandener Projekteinstellungen, keine allgemeine Modellkosten-Datenbank und keine neue Pflicht zur formalen Mehrpersonenfreigabe. GitHub-Branchschutz wird in den Zielprojekten geprüft, aber nicht ungefragt konfiguriert. Weitere Anforderungen werden aus tatsächlichen Problemen abgeleitet, nicht allein aus theoretischen Sonderfällen.
