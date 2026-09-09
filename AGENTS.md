@@ -8,7 +8,7 @@ Vor auftragsbezogener Arbeit vollständig lesen:
 
 1. [Allgemeinen Workflow](rules/WORKFLOW.md).
 2. [Projektprofil](docs/PROJECT_PROFILE.md).
-3. Den aktuellen vollständigen Body des maßgeblichen Issues; bei Review/Nacharbeit außerdem PR, aktuellen Diff und den ausdrücklich referenzierten Reviewstand.
+3. Den aktuellen vollständigen Body des maßgeblichen Issues, sofern bereits vorhanden; bei Review/Nacharbeit außerdem PR, aktuellen Diff und den ausdrücklich referenzierten Reviewstand. Bei einer neuen Idee ohne Issue zunächst den Auftrag und die Repositoryquellen verwenden; kein nicht existierendes Issue voraussetzen.
 
 Nur bei Vorbereitung einer noch auszuführenden Implementierung oder konkreter noch offener technischer Nacharbeit zusätzlich [Modellauswahl](rules/MODEL_SELECTION.md) und [Modellkatalog](rules/MODEL_CATALOG.md) lesen. Keine rückblickende Modellbewertung nach erledigter Arbeit ausgeben.
 

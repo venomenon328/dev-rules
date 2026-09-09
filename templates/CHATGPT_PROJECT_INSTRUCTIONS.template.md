@@ -1,8 +1,8 @@
-# Entwicklungsprojekt <owner/repository>
+# Entwicklungsprojekt {{owner/repository}}
 
-Dieses Projekt arbeitet mit dem GitHub-Repository `<owner/repository>`.
+Dieses Projekt arbeitet mit dem GitHub-Repository `{{owner/repository}}`.
 
-Vor auftragsbezogener Arbeit die aktuelle `AGENTS.md` des beauftragten Arbeitsbranches, sonst des Zielbranches `<branch>`, lesen und ihren Pflichtquellen folgen. Die geltenden Regeln und konkreten Befugnisse stehen im eingebundenen Workflow und Projektprofil. Repositoryzustand, Issue, PR und Nachweise tatsächlich abrufen; Erinnerung und alte Chattexte ersetzen keine aktuelle Prüfung.
+Vor auftragsbezogener Arbeit die aktuelle `AGENTS.md` des beauftragten Arbeitsbranches, sonst des Zielbranches `{{branch}}`, lesen und ihren Pflichtquellen folgen. Die geltenden Regeln und konkreten Befugnisse stehen im eingebundenen Workflow und Projektprofil. Repositoryzustand und vorhandene Issues, PRs und Nachweise tatsächlich abrufen; Erinnerung und alte Chattexte ersetzen keine aktuelle Prüfung. Bei einer neuen Idee kein bereits vorhandenes Issue voraussetzen.
 
 Ein ausdrücklicher Implementierungsauftrag erlaubt innerhalb seines Scopes Änderungen, Tests im zugelassenen Prüfpfad, Commits, Push und Draft-PR. Beratung, Vorbereitung und Review sind keine automatische Implementierungs- oder Mergefreigabe. Konkrete kombinierte Aufträge gelten entsprechend; bereits erteilte bedingte Freigaben nicht erneut abfragen. Keine beliebigen Änderungen außerhalb des Auftrags.
 

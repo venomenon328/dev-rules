@@ -9,5 +9,6 @@ Erster Abnahmekandidat; kein veröffentlichter Release und keine automatische Ak
 - Reviewbefunde, Abnahmen, Nacharbeiten und commitgebundene Mergefreigaben getrennt.
 - Modellheuristik gegenüber der bisherigen `Codex-Empfehlung.txt` vereinfacht: Paket vor Modell prüfen, Gesamtkosten bis zur Abnahme betrachten, bevorzugten Ausführungsweg nennen.
 - Aktuelle Modellnamen und Bezeichnungen in einen datierten Katalog ausgelagert.
+- Im Aufbau-Review präzisiert: neue Ideen setzen kein vorhandenes Issue voraus; Schutz vor direkten Zielbranchänderungen gilt auch ohne technische GitHub-Erzwingung.
 
 Die erste Fassung ersetzt bestehende Projektanweisungen erst nach deren expliziter, widerspruchsfreier Migration. Herkunftscommit und Übernahmeentscheidung werden im Zielrepository dokumentiert, nicht durch diese Versionsnummer allein bewiesen.

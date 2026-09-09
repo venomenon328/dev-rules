@@ -10,7 +10,7 @@ Arbeite auf <Arbeitsbranch> gegen <Zielbranch>; Einstieg und Pflichtquellen: AGE
 Committe und pushe, erstelle/aktualisiere den Draft-PR und liefere die Prüfnachweise gemäß Workflow. Nicht mergen.
 ```
 
-Bei einem einzigen Paket die Paketangabe weglassen. Branch muss vorbereitet oder seine Erstellung aus aktueller Basis eindeutig beauftragt sein; bei noch nicht existierendem Branch entsprechend „Erstelle <Branch> vom aktuellen <Zielbranch>“ einsetzen.
+Bei einem einzigen Paket die Paketangabe weglassen. Branch muss vorbereitet oder seine Erstellung aus aktueller Basis eindeutig beauftragt sein; bei noch nicht existierendem Branch entsprechend `Erstelle <Branch> vom aktuellen <Zielbranch>` einsetzen.
 
 ## Codex: Nacharbeiten
 
