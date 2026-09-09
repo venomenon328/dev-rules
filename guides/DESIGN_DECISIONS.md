@@ -14,11 +14,13 @@ Ein Workflow beschreibt die Phasen und Übergänge. Die Modellwahl ist getrennt,
 
 Eine Commitberechtigung allein beantwortet nicht, ob ein konkreter Auftrag Änderungen, Korrekturen oder Merge umfasst. Deshalb werden diese Handlungen unterschieden, ohne bereits erteilte bedingte Freigaben erneut abzufragen. Reviewbefunde dürfen keine verdeckte neue Produktplanung sein.
 
-## Paketgröße vor Modellstärke
+## Paketgrenzen, Qualitätsanspruch und Modellwahl
 
 Die frühere `Codex-Empfehlung.txt` war Ausgangsmaterial. Beibehalten werden Empfehlungen nur vor noch auszuführender Arbeit, konkrete Modelleinstellungen, umgebungsbezogene Eigenumsetzung und Gesamtkostenbetrachtung. Bewusst verändert werden die sehr feine Modellmatrix, der parallele Pflicht-Codex-Auftrag trotz bevorzugter Eigenumsetzung und die pauschale Gleichsetzung manueller Restabnahme mit unvollständiger Implementierbarkeit.
 
-Das sind lokale Prozessentscheidungen. Offizielle Modellbeschreibungen belegen weder eine konkrete Kosteneinsparung in diesen Repositories noch die Verfügbarkeit im Benutzerkonto.
+Die Rückmeldung zur ersten Fassung hat die reine Kostenorientierung korrigiert: Der gewünschte Maßstab ist Ergebnisqualität bei angemessenem Aufwand, nicht das billigste gerade noch ausreichende Resultat. High als Standard und die besondere Berücksichtigung redaktioneller/kuratorischer Qualität setzen diese vereinbarte Präferenz um. Kleinere Pakete erleichtern die Abnahme, schreiben aber keine kleineren Modelle vor. Die konkrete Entscheidungsregel steht ausschließlich in [MODEL_SELECTION.md](../rules/MODEL_SELECTION.md).
+
+Das sind lokale Prozessentscheidungen. Offizielle Modellbeschreibungen belegen weder eine konkrete Qualitäts- oder Kostendifferenz in diesen Repositories noch die Verfügbarkeit im Benutzerkonto.
 
 ## Belegbares Review statt Vertrauen auf Fazittexte
 

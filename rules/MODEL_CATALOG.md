@@ -6,12 +6,12 @@
 
 | Modell | Explizite Modell-ID | Lokaler Startpunkt, kein Leistungsversprechen |
 | --- | --- | --- |
-| GPT-5.6 Luna | `gpt-5.6-luna` | Kleine, klare und wiederholbare Implementierung |
+| GPT-5.6 Luna | `gpt-5.6-luna` | Eindeutige mechanische Änderungen ohne fachlichen oder stilistischen Gestaltungsspielraum |
 | GPT-5.6 Terra | `gpt-5.6-terra` | Normale, klar definierte Feature-/Fixarbeit |
-| GPT-5.6 Sol | `gpt-5.6-sol` | Anspruchsvolles Verständnis und schwierige Implementierung |
+| GPT-5.6 Sol | `gpt-5.6-sol` | Anspruchsvolles Verständnis, differenzierte Redaktion/Kuratierung und schwierige Implementierung |
 | GPT-6 Astra | `gpt-6-astra` | Schwierige, nicht sinnvoll weiter teilbare Gesamtprozesse |
 
-Die Namen und IDs sind in der offiziellen Modellübersicht dokumentiert. Die konkrete Paketzuordnung ist unsere Heuristik, nicht das Ergebnis eigener Benchmarks. Keine feste ewige Whitelist: Bei Ablösung oder Nichtverfügbarkeit anhand offizieller Quellen und der tatsächlich verwendeten Oberfläche aktualisieren.
+Die Namen und IDs sind in der offiziellen Modellübersicht dokumentiert. Die konkrete Paketzuordnung ist unsere Heuristik, nicht das Ergebnis eigener Benchmarks. Sie enthält keine Obergrenzen: Zusätzlicher erwarteter Qualitätsnutzen kann auch bei kleinen Paketen eine stärkere Klasse rechtfertigen; maßgeblich ist [MODEL_SELECTION.md](MODEL_SELECTION.md). Keine feste ewige Whitelist: Bei Ablösung oder Nichtverfügbarkeit anhand offizieller Quellen und der tatsächlich verwendeten Oberfläche aktualisieren.
 
 ## Bezeichnungen und Grenzen
 
